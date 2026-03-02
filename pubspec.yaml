@@ -1,0 +1,33 @@
+name: chefcam
+description: ChefCam - Detecta ingredientes y guía recetas con IA
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  google_generative_ai: ^0.4.3
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.1
+  image: ^4.1.7
+  provider: ^6.1.2
+  lottie: ^3.1.2
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.2
+  supabase_flutter: ^2.5.6
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/chef_wolf.gif
